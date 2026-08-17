@@ -1,0 +1,26 @@
+[
+  {
+    "page": 77,
+    "brsr_id": "P5-E2",
+    "reason": "remarks mentions (P3E2) (Principle 3) but this record belongs to Principle 5 -- likely cross-record contamination, not auto-fixed",
+    "remarks_excerpt": "GRI Disclosure 202-1 requires the information on entry level wage only with gender wise and region wise breakup, while BRSR indicator (P3E2) requires the information for all employees and workers with"
+  },
+  {
+    "page": 89,
+    "brsr_id": "P5-L4",
+    "reason": "remarks mentions (P3L5) (Principle 3) but this record belongs to Principle 5 -- likely cross-record contamination, not auto-fixed",
+    "remarks_excerpt": "GRI Disclosure 414-1-a and Disclosure 414-2- a report the social assessment carried out on the new and existing suppliers, while the BRSR indicator (P3L5) requires particular focus on Sexual Harassmen"
+  },
+  {
+    "page": 89,
+    "brsr_id": "P5-L5",
+    "reason": "remarks mentions (P3L5) (Principle 3) but this record belongs to Principle 5 -- likely cross-record contamination, not auto-fixed",
+    "remarks_excerpt": "GRI Disclosure 414-1-a and Disclosure 414-2- a report the social assessment carried out on the new and existing suppliers, while the BRSR indicator (P3L5) requires particular focus on Sexual Harassmen"
+  },
+  {
+    "page": 90,
+    "brsr_id": "P6-E1",
+    "reason": "remarks mentions (P3L5) (Principle 3) but this record belongs to Principle 6 -- likely cross-record contamination, not auto-fixed",
+    "remarks_excerpt": "GRI Disclosure 414-1-a and Disclosure 414-2- a report the social assessment carried out on the new and existing suppliers, while the BRSR indicator (P3L5) requires particular focus on Sexual Harassmen"
+  }
+]

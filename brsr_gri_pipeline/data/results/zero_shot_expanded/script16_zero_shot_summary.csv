@@ -1,0 +1,5 @@
+method,evaluated_brsr_ids,recall@1,recall@5,recall@10,recall@20,recall@50,mrr
+direct,5,0.35,0.65,0.7,0.7,1.0,0.7095238095238094
+symbolic_multihop,5,0.35,0.75,0.9,1.0,1.0,0.7222222222222222
+multihop_kd_gold,5,0.35,0.75,0.9,0.9,1.0,0.7222222222222222
+multihop_kd_gold_medium,5,0.35,0.75,0.8,0.9,1.0,0.7166666666666666

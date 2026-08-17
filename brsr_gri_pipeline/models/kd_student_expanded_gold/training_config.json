@@ -1,0 +1,8 @@
+{
+  "run_name": "expanded_gold",
+  "student_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "best_epoch": 1,
+  "best_validation_kl": 0.0005288313259370625,
+  "train_brsr_ids": 20,
+  "validation_brsr_ids": 1
+}

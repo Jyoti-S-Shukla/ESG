@@ -1,0 +1,12 @@
+brsr_id,gri_code,gri_disclosure,esrs_datapoint_id,esrs_sheet,esrs_topic_code,esrs_dr,esrs_name,esrs_data_type,brsr_match_type,brsr_mapping_semantics,brsr_evidence_source,gri_esrs_match_level,expansion_count,expansion_class,interop_support,evidence_tier
+A13,2-2-A,2-2,BP-1_01,ESRS 2,ESRS 2,BP-1,Basis for preparation of sustainability statement,semi-narrative,direct,direct,table1,requirement,1,low,direct,gold
+A13,2-2-C,2-2,BP-1_01,ESRS 2,ESRS 2,BP-1,Basis for preparation of sustainability statement,semi-narrative,direct,direct,table1,disclosure,2,low,direct,gold
+A13,2-2-C,2-2,BP-1_02,ESRS 2,ESRS 2,BP-1,Scope of consolidation of consolidated sustainability statement is same as for financial statements,narrative,direct,direct,table1,disclosure,2,low,direct,gold
+B6,3-3-E-III,3-3,MDR-T_13,ESRS 2 MDR,ESRS 2,MDR-T,Description of performance against disclosed target,narrative,direct,direct,table1,requirement,2,low,direct,gold
+B6,3-3-E-III,3-3,S1-4_12,ESRS S1,S1,S1-4,Disclosure of how far undertaking has progressed in efforts during reporting period,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P1-E7,205-3-D,205-3,G1-4_08,ESRS G1,G1,G1-4,Information about details of public legal cases regarding corruption or bribery brought against undertaking and own workers and about outcomes of such cases,narrative,direct,direct,table1,requirement,1,low,direct,gold
+P5-E2,202-1-B,202-1,S1-10_04,ESRS S1,S1,S1-10,Percentage of non-employees paid below adequate wage,Table/numerical,direct,direct,table1,requirement,1,low,direct,gold
+P5-E2,405-2-A,405-2,S1-16_01,ESRS S1,S1,S1-16,Gender pay gap,Percent,direct,direct,table1,disclosure,3,low,direct,gold
+P5-E2,405-2-A,405-2,S1-16_04,ESRS S1,S1,S1-16,Gender pay gap breakdown by employee category and/or country/segment [table],Table/numerical,direct,direct,table1,disclosure,3,low,direct,gold
+P5-E2,405-2-A,405-2,S1-16_05,ESRS S1,S1,S1-16,Gender pay gap breakdown by employee category and ordinary basic salary and complementary/variable components,Table/numerical,direct,direct,table1,disclosure,3,low,direct,gold
+P6-E1,302-3-A,302-3,E1-5_18,ESRS E1,E1,E1-5,Energy intensity from activities in high climate impact sectors (total energy consumption per net revenue),intensity,direct,direct,table1,disclosure,1,low,direct,gold

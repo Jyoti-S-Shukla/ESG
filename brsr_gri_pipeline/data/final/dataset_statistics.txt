@@ -1,0 +1,25 @@
+FINAL DATASET
+==============
+
+Candidates: 5146
+Gold: 64
+Medium: 442
+High recall: 93
+Review: 4547
+
+Gold train: 45
+Gold validation: 10
+Gold test: 9
+
+Train BRSR IDs: 16
+Validation BRSR IDs: 7
+Test BRSR IDs: 7
+
+Gold-only train: 45
+Gold + medium train: 92
+High-recall train pool: 0
+
+Leakage:
+train-validation: 0
+train-test: 0
+validation-test: 0

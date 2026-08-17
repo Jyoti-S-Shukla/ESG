@@ -1,0 +1,7 @@
+dataset,purpose,rows,gold_rows,medium_rows,high_recall_rows,review_rows,brr_ids,evidence_policy
+final_train,supervised training,106,47,59,0,0,21,gold + medium; training BRSR IDs only
+gold_only_train,training ablation,47,47,0,0,0,21,gold only
+final_validation,model selection / validation,6,6,0,0,0,4,gold only
+final_test,final evaluation,11,11,0,0,0,5,gold only
+high_recall_pool,candidate retrieval,93,0,0,93,0,17,candidate evidence; not gold labels
+excluded_review,future audit / error analysis,4547,0,0,0,4547,33,excluded from training and evaluation

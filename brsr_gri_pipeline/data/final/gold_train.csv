@@ -1,0 +1,46 @@
+brsr_id,gri_code,gri_disclosure,esrs_datapoint_id,esrs_sheet,esrs_topic_code,esrs_dr,esrs_name,esrs_data_type,brsr_match_type,brsr_mapping_semantics,brsr_evidence_source,gri_esrs_match_level,expansion_count,expansion_class,interop_support,evidence_tier
+P6-E6,305-4-A,305-4,E1-6_30,ESRS E1,E1,E1-6,"GHG emissions intensity, location-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-E6,305-4-A,305-4,E1-6_31,ESRS E1,E1,E1-6,"GHG emissions intensity, market-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-E6,305-4-B,305-4,E1-6_30,ESRS E1,E1,E1-6,"GHG emissions intensity, location-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-E6,305-4-B,305-4,E1-6_31,ESRS E1,E1,E1-6,"GHG emissions intensity, market-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-E6,305-4-C,305-4,E1-6_30,ESRS E1,E1,E1-6,"GHG emissions intensity, location-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-E6,305-4-C,305-4,E1-6_31,ESRS E1,E1,E1-6,"GHG emissions intensity, market-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-L4,305-4-A,305-4,E1-6_30,ESRS E1,E1,E1-6,"GHG emissions intensity, location-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-L4,305-4-A,305-4,E1-6_31,ESRS E1,E1,E1-6,"GHG emissions intensity, market-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-L4,305-4-B,305-4,E1-6_30,ESRS E1,E1,E1-6,"GHG emissions intensity, location-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-L4,305-4-B,305-4,E1-6_31,ESRS E1,E1,E1-6,"GHG emissions intensity, market-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-L4,305-4-C,305-4,E1-6_30,ESRS E1,E1,E1-6,"GHG emissions intensity, location-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P6-L4,305-4-C,305-4,E1-6_31,ESRS E1,E1,E1-6,"GHG emissions intensity, market-based (total GHG emissions per net revenue)",Intensity,direct,direct,table1,disclosure,2,low,direct,gold
+P5-E2,202-1-B,202-1,S1-10_04,ESRS S1,S1,S1-10,Percentage of non-employees paid below adequate wage,Table/numerical,direct,direct,table1,requirement,1,low,direct,gold
+P5-E2,405-2-A,405-2,S1-16_01,ESRS S1,S1,S1-16,Gender pay gap,Percent,direct,direct,table1,disclosure,3,low,direct,gold
+P5-E2,405-2-A,405-2,S1-16_04,ESRS S1,S1,S1-16,Gender pay gap breakdown by employee category and/or country/segment [table],Table/numerical,direct,direct,table1,disclosure,3,low,direct,gold
+P5-E2,405-2-A,405-2,S1-16_05,ESRS S1,S1,S1-16,Gender pay gap breakdown by employee category and ordinary basic salary and complementary/variable components,Table/numerical,direct,direct,table1,disclosure,3,low,direct,gold
+P6-E8,306-3-A,306-3,E5-5_07,ESRS E5,E5,E5-5,Total Waste generated,Mass,direct,direct,table1,requirement,3,low,broader_topic;direct,gold
+P6-E8,306-3-A,306-3,E5-5_15,ESRS E5,E5,E5-5,Total amount of hazardous waste,Mass,direct,direct,table1,requirement,3,low,broader_topic;direct,gold
+P6-E8,306-3-A,306-3,E5-5_16,ESRS E5,E5,E5-5,Total amount of radioactive waste,Mass,direct,direct,table1,requirement,3,low,broader_topic;direct,gold
+P5-L2,3-1-A-I,3-1,BP-1_04,ESRS 2,ESRS 2,BP-1,Disclosure of extent to which sustainability statement covers upstream and downstream value chain,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P5-L2,3-1-A-I,3-1,IRO-1_04,ESRS 2,ESRS 2,IRO-1,Description of how process considers impacts with which undertaking is involved through own operations or as result of business relationships,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P5-L2,3-3-A,3-3,SBM-3_04,ESRS 2,ESRS 2,SBM-3,Disclosure of how material negative and positive impacts affect (or are likely to affect) people or environment,narrative,direct,direct,table1,requirement,1,low,direct,gold
+B8,2-13-A-I,2-13,GOV-1_11,ESRS 2,ESRS 2,GOV-1,Description of how oversight is exercised over management-level position or committee to which management's role is delegated to,narrative,direct,direct,table1,disclosure,3,low,direct,gold
+B8,2-13-A-I,2-13,GOV-1_12,ESRS 2,ESRS 2,GOV-1,"Information about reporting lines to administrative, management and supervisory bodies",narrative,direct,direct,table1,disclosure,3,low,direct,gold
+B8,2-13-A-I,2-13,G1-3_03,ESRS G1,G1,G1-3,"Information about process to report outcomes to administrative, management and supervisory bodies",narrative,direct,direct,table1,disclosure,3,low,direct,gold
+P5-E4,2-13-A-I-II,2-13,GOV-1_11,ESRS 2,ESRS 2,GOV-1,Description of how oversight is exercised over management-level position or committee to which management's role is delegated to,narrative,direct,direct,table1,disclosure,3,low,direct,gold
+P5-E4,2-13-A-I-II,2-13,GOV-1_12,ESRS 2,ESRS 2,GOV-1,"Information about reporting lines to administrative, management and supervisory bodies",narrative,direct,direct,table1,disclosure,3,low,direct,gold
+P5-E4,2-13-A-I-II,2-13,G1-3_03,ESRS G1,G1,G1-3,"Information about process to report outcomes to administrative, management and supervisory bodies",narrative,direct,direct,table1,disclosure,3,low,direct,gold
+A18a,2-8-A,2-8,S1-7_01,ESRS S1,S1,S1-7,Number of non-employees in own workforce,Decimal,direct,direct,table1,requirement,3,low,direct,gold
+A18a,2-8-A,2-8,S1-7_02,ESRS S1,S1,S1-7,Number of non-employees in own workforce - self-employed people,Decimal,direct,direct,table1,requirement,3,low,direct,gold
+A18a,2-8-A,2-8,S1-7_03,ESRS S1,S1,S1-7,Number of non-employees in own workforce - people provided by undertakings primarily engaged in employment activities,Decimal,direct,direct,table1,requirement,3,low,direct,gold
+P1-E5,205-3-A,205-3,G1-4_04,ESRS G1,G1,G1-4,Number of confirmed incidents of corruption or bribery,Integer,direct,direct,table1,requirement,2,low,direct,gold
+P1-E5,205-3-A,205-3,G1-4_05,ESRS G1,G1,G1-4,Information about nature of confirmed incidents of corruption or bribery,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P1-E5,205-3-B,205-3,G1-4_06,ESRS G1,G1,G1-4,Number of confirmed incidents in which own workers were dismissed or disciplined for corruption or bribery-related incidents,Integer,direct,direct,table1,requirement,1,low,direct,gold
+A13,2-2-A,2-2,BP-1_01,ESRS 2,ESRS 2,BP-1,Basis for preparation of sustainability statement,semi-narrative,direct,direct,table1,requirement,1,low,direct,gold
+A13,2-2-C,2-2,BP-1_01,ESRS 2,ESRS 2,BP-1,Basis for preparation of sustainability statement,semi-narrative,direct,direct,table1,disclosure,2,low,direct,gold
+A13,2-2-C,2-2,BP-1_02,ESRS 2,ESRS 2,BP-1,Scope of consolidation of consolidated sustainability statement is same as for financial statements,narrative,direct,direct,table1,disclosure,2,low,direct,gold
+P4-E1,2-29-A-I,2-29,SBM-2_02,ESRS 2,ESRS 2,SBM-2,Description of key stakeholders,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P4-E1,2-29-A-I,2-29,SBM-2_03,ESRS 2,ESRS 2,SBM-2,Description of categories of stakeholders for which engagement occurs,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P4-L1,2-29-A-I,2-29,SBM-2_02,ESRS 2,ESRS 2,SBM-2,Description of key stakeholders,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P4-L1,2-29-A-I,2-29,SBM-2_03,ESRS 2,ESRS 2,SBM-2,Description of categories of stakeholders for which engagement occurs,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P3-E7,2-30-A,2-30,S1-8_01,ESRS S1,S1,S1-8,Percentage of total employees covered by collective bargaining agreements,Percent,direct,direct,table1,requirement,1,low,direct,gold
+P8-L1,413-1-A-IV,413-1,S3-4_17,ESRS S3,S3,S3-4,"Explanation of the approximate scope of affected communities covered by the described social investment or development programmes, and, where applicable, the rationale for why selected communities were chosen",narrative,direct,direct,table1,disclosure,1,low,direct,gold
+P8-E3,413-1-A-VIII,413-1,S3-4_17,ESRS S3,S3,S3-4,"Explanation of the approximate scope of affected communities covered by the described social investment or development programmes, and, where applicable, the rationale for why selected communities were chosen",narrative,direct,direct,table1,disclosure,1,low,direct,gold
+P1-E7,205-3-D,205-3,G1-4_08,ESRS G1,G1,G1-4,Information about details of public legal cases regarding corruption or bribery brought against undertaking and own workers and about outcomes of such cases,narrative,direct,direct,table1,requirement,1,low,direct,gold

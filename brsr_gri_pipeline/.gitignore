@@ -1,0 +1,8 @@
+data/raw/*.pdf
+data/interim/*
+data/processed/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+__pycache__/
+*.pyc
+.venv/

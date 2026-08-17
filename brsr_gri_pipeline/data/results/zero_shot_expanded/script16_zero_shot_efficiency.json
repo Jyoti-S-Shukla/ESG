@@ -1,0 +1,8 @@
+{
+  "evaluated_brsr_ids": 5,
+  "mean_symbolic_candidates": 42.6,
+  "mean_bridge_gold_reached": 2.0,
+  "mean_bridge_gold_coverage": 1.0,
+  "mean_gri_nodes": 3.6,
+  "full_esrs_universe": 517
+}

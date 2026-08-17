@@ -1,0 +1,10 @@
+brsr_id,gri_code,gri_disclosure,esrs_datapoint_id,esrs_sheet,esrs_topic_code,esrs_dr,esrs_name,esrs_data_type,brsr_match_type,brsr_mapping_semantics,brsr_evidence_source,gri_esrs_match_level,expansion_count,expansion_class,interop_support,evidence_tier
+P1-E1,2-17-A,2-17,GOV-1_15,ESRS 2,ESRS 2,GOV-1,"Disclosure of how administrative, management and supervisory bodies determine whether appropriate skills and expertise are available or will be developed to oversee sustainability matters",narrative,direct,direct,table1,requirement,1,low,direct,gold
+P1-E1,2-24-A-IV,2-24,G1-1_10,ESRS G1,G1,G1-1,Information about policy for training within organisation on business conduct,narrative,direct,direct,table1,requirement,1,low,direct,gold
+A21,2-2-A,2-2,BP-1_01,ESRS 2,ESRS 2,BP-1,Basis for preparation of sustainability statement,semi-narrative,direct,direct,table1,requirement,1,low,direct,gold
+A21,2-2-B,2-2,BP-1_02,ESRS 2,ESRS 2,BP-1,Scope of consolidation of consolidated sustainability statement is same as for financial statements,narrative,direct,direct,table1,requirement,1,low,direct,gold
+P5-E1,2-24-A-IV,2-24,G1-1_10,ESRS G1,G1,G1-1,Information about policy for training within organisation on business conduct,narrative,direct,direct,table1,requirement,1,low,direct,gold
+P2-L2,3-3-A,3-3,SBM-3_04,ESRS 2,ESRS 2,SBM-3,Disclosure of how material negative and positive impacts affect (or are likely to affect) people or environment,narrative,direct,direct,table1,requirement,1,low,direct,gold
+P1-L1,2-24-A-IV,2-24,G1-1_10,ESRS G1,G1,G1-1,Information about policy for training within organisation on business conduct,narrative,direct,direct,table1,requirement,1,low,direct,gold
+P4-L2,3-1-B,3-1,IRO-1_05,ESRS 2,ESRS 2,IRO-1,Description of how process includes consultation with affected stakeholders to understand how they may be impacted and with external experts,narrative,direct,direct,table1,requirement,1,low,direct,gold
+P6-E3,303-5-A,303-5,E3-4_01,ESRS E3,E3,E3-4,Total water consumption,Volume,direct,direct,table1,requirement,1,low,direct,gold

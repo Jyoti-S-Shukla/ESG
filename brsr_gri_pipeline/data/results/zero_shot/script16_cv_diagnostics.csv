@@ -1,0 +1,6 @@
+fold,brsr_id,direct_candidates,symbolic_candidates,ce_candidates,gri_nodes,bridge_gold_reached
+1,P6-E1,13,13,13,7,1
+2,P1-E7,5,5,5,2,1
+3,P5-E2,7,7,7,5,4
+4,B6,186,186,50,1,2
+5,A13,2,2,2,3,2

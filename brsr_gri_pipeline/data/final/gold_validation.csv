@@ -1,0 +1,11 @@
+brsr_id,gri_code,gri_disclosure,esrs_datapoint_id,esrs_sheet,esrs_topic_code,esrs_dr,esrs_name,esrs_data_type,brsr_match_type,brsr_mapping_semantics,brsr_evidence_source,gri_esrs_match_level,expansion_count,expansion_class,interop_support,evidence_tier
+P3-E9,404-3-A,404-3,S1-13_01,ESRS S1,S1,S1-13,Training and skills development indicators gender [table],Table,direct,direct,table1,requirement,2,low,direct,gold
+P3-E9,404-3-A,404-3,S1-13_02,ESRS S1,S1,S1-13,Percentage of employees that participated in regular performance and career development reviews,Table/Percent,direct,direct,table1,requirement,2,low,direct,gold
+P3-E8,404-1-A-I,404-1,S1-13_03,ESRS S1,S1,S1-13,Average number of training hours  by gender [table],Table,direct,direct,table1,requirement,2,low,direct,gold
+P3-E8,404-1-A-I,404-1,S1-13_04,ESRS S1,S1,S1-13,Average number of training hours per person for employees,Table/Decimal,direct,direct,table1,requirement,2,low,direct,gold
+B6,3-3-E-III,3-3,MDR-T_13,ESRS 2 MDR,ESRS 2,MDR-T,Description of performance against disclosed target,narrative,direct,direct,table1,requirement,2,low,direct,gold
+B6,3-3-E-III,3-3,S1-4_12,ESRS S1,S1,S1-4,Disclosure of how far undertaking has progressed in efforts during reporting period,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P2-L3,301-2-A,301-2,E5-4_05,ESRS E5,E5,E5-4,"Percentage of secondary reused or recycled components, secondary intermediary products and secondary materials",Percent,direct,direct,table1,requirement,1,low,direct,gold
+P4-E2,3-1-B,3-1,IRO-1_05,ESRS 2,ESRS 2,IRO-1,Description of how process includes consultation with affected stakeholders to understand how they may be impacted and with external experts,narrative,direct,direct,table1,requirement,1,low,direct,gold
+B7,2-22-A,2-22,SBM-1_23,ESRS 2,ESRS 2,SBM-1,Disclosure of elements of strategy that relate to or impact sustainability matters,narrative,direct,direct,table1,requirement,1,low,direct,gold
+P6-E1,302-3-A,302-3,E1-5_18,ESRS E1,E1,E1-5,Energy intensity from activities in high climate impact sectors (total energy consumption per net revenue),intensity,direct,direct,table1,disclosure,1,low,direct,gold

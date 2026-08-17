@@ -1,0 +1,171 @@
+brsr_id,reason
+A12,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-3-D']; Table2=['2-3']
+A13,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-2-A', '2-2-C']; Table2=['2-2']"
+A14,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-6-B-I']; Table2=['2-6']
+A15,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-6-B-I']; Table2=['2-6']
+A16,Table 1 and Table 2 have partially overlapping GRI codes. Shared=['2-6-B-I']; Table1-only=[]; Table2-only=['2-6']
+A17,present in Table 2 only; missing from Table 1
+A17,"GRI code found in Table 2 but not Table 1. Table2=['2-6', '2-6-B-I', '2-6-B-III']. Inspect Table 1 raw text before treating this as a genuine disagreement."
+A17a,present in Table 1 only; missing from Table 2
+A17a,GRI code found in Table 1 but not Table 2. Table1=['2-6-B-I']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+A17b,present in Table 1 only; missing from Table 2
+A17c,present in Table 1 only; missing from Table 2
+A17c,GRI code found in Table 1 but not Table 2. Table1=['2-6-B-III']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+A18,present in Table 2 only; missing from Table 1
+A18,"GRI code found in Table 2 but not Table 1. Table2=['2-7', '2-8', '405-1']. Inspect Table 1 raw text before treating this as a genuine disagreement."
+A18a,present in Table 1 only; missing from Table 2
+A18a,"GRI code found in Table 1 but not Table 2. Table1=['2-7-A', '2-7-B-I-II', '2-8-A']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+A18b,present in Table 1 only; missing from Table 2
+A18b,GRI code found in Table 1 but not Table 2. Table1=['405-1-B-III']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+A19,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['405-1-A-I', '405-1-B-I']; Table2=['405-1']"
+A2,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-1-A']; Table2=['2-1']
+A20,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['401-1-B']; Table2=['401-1']
+A21,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-2-A', '2-2-B']; Table2=['2-2']"
+A21,Match type disagreement. Table1=direct; Table2=no_direct_linkage. Table 1 retained as authoritative.
+A22,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['201-1-A-I-II']; Table2=['201-1']
+A23,Table 1 and Table 2 have partially overlapping GRI codes. Shared=['2-25-E']; Table1-only=[]; Table2-only=['2-25']
+A24,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['201-2-A', '3-1-A-I-II', '3-1-B', '3-2-A', '3-3-A', '3-3-D-I-II']; Table2=['3-1', '3-2', '3-3']"
+A24,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+A5,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-1-C']; Table2=['2-1']
+A6,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-3-D']; Table2=['2-3']
+A7,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-3-D']; Table2=['2-3']
+A9,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-3-A', '2-3-B']; Table2=['2-3']"
+B1,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-23-A', '2-23-C', '2-23-D']; Table2=['2-23']"
+B11,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-5-B-I-III']; Table2=['2-5']
+B2,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-24-A-II']; Table2=['2-24']
+B3,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-23-E']; Table2=['2-23']
+B5,Table 1 and Table 2 have partially overlapping GRI codes. Shared=['3-3-E-II']; Table1-only=['3-3-C']; Table2-only=['3-3']
+B6,Table 1 and Table 2 have partially overlapping GRI codes. Shared=['3-3-E-III']; Table1-only=[]; Table2-only=['3-3']
+B7,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-22-A']; Table2=['2-22']
+B8,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-13-A-I']; Table2=['2-13']
+B9,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-9-B', '2-9-C-I-VIII']; Table2=['2-9']"
+P1-E1,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['2-24-A-IV']; Table1-only=['2-17-A']; Table2-only=['2-17', '2-24']"
+P1-E4,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-23-A', '2-23-C', '3-3-C']; Table2=['2-23', '3-3']"
+P1-E5,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['205-3-A', '205-3-B']; Table2=['205-3']"
+P1-E6,GRI code found in Table 1 but not Table 2. Table1=['2-25-E']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P1-E6,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P1-E7,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['205-3-D']; Table2=['205-3']
+P1-L1,Table 1 and Table 2 have partially overlapping GRI codes. Shared=['2-24-A-IV']; Table1-only=[]; Table2-only=['2-24']
+P1-L2,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['2-10-B-III']; Table1-only=['2-15-A']; Table2-only=['2-10', '2-15']"
+P2-E2,"GRI code found in Table 1 but not Table 2. Table1=['308-1-A', '414-1-A']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P2-E2,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P2-E3,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['306-2-A']; Table1-only=['3-3-D']; Table2-only=['3-3', '306-2']"
+P2-L2,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-3-A', '3-3-D-I-III', '306-2-A']; Table2=['3-3', '306-2']"
+P2-L3,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['301-2-A']; Table2=['301-2']
+P2-L5,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['301-3-A']; Table2=['301-3']
+P3-E1,present in Table 2 only; missing from Table 1
+P3-E1,GRI code found in Table 2 but not Table 1. Table2=['401-2']. Inspect Table 1 raw text before treating this as a genuine disagreement.
+P3-E10,present in Table 2 only; missing from Table 1
+P3-E10,"GRI code found in Table 2 but not Table 1. Table2=['403-1', '403-2', '403-6']. Inspect Table 1 raw text before treating this as a genuine disagreement."
+P3-E10a,present in Table 1 only; missing from Table 2
+P3-E10a,"GRI code found in Table 1 but not Table 2. Table1=['403-1-A', '403-1-B']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P3-E10b,present in Table 1 only; missing from Table 2
+P3-E10b,GRI code found in Table 1 but not Table 2. Table1=['403-2-A']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P3-E10c,present in Table 1 only; missing from Table 2
+P3-E10c,"GRI code found in Table 1 but not Table 2. Table1=['403-2-B', '403-2-C']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P3-E10d,present in Table 1 only; missing from Table 2
+P3-E10d,GRI code found in Table 1 but not Table 2. Table1=['403-6-A']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P3-E11,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['403-10-A', '403-10-B-II', '403-9-A-I-V', '403-9-B-I-V']; Table2=['403-10', '403-9']"
+P3-E12,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-3-D-I-III', '403-10-C-III', '403-2-A-I-II', '403-9-C-III', '403-9-D']; Table2=['3-3', '403-10', '403-2', '403-9']"
+P3-E13,GRI code found in Table 1 but not Table 2. Table1=['2-25-E']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P3-E13,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P3-E14,GRI code found in Table 1 but not Table 2. Table1=['3-3-E-I']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P3-E14,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P3-E15,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['3-3']; Table1-only=['403-10-C-II-III', '403-9-C-II-III', '403-9-D']; Table2-only=['403-10', '403-9']"
+P3-E1a,present in Table 1 only; missing from Table 2
+P3-E1a,GRI code found in Table 1 but not Table 2. Table1=['401-2-A-I']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P3-E1b,present in Table 1 only; missing from Table 2
+P3-E2,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['201-3-B-I-III', '201-3-C', '201-3-D', '201-3-E']; Table2=['201-3']"
+P3-E3,"GRI code found in Table 1 but not Table 2. Table1=['3-3', '3-3-C']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P3-E3,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P3-E4,present in Table 2 only; missing from Table 1
+P3-E5,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['401-3-A', '401-3-B', '401-3-C', '401-3-D', '401-3-E']; Table2=['401-3']"
+P3-E6,GRI code found in Table 1 but not Table 2. Table1=['2-25-B']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P3-E6,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P3-E7,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-30-A']; Table2=['2-30']
+P3-E8,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['403-5-A', '404-1-A-I', '404-2-A']; Table2=['403-5', '404-1', '404-2']"
+P3-E9,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['404-3-A']; Table2=['404-3']
+P3-L3,GRI code found in Table 1 but not Table 2. Table1=['3-3-D-II']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P3-L3,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P3-L4,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['404-2-B']; Table2=['404-2']
+P3-L5,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['414-2-A']; Table2=['414-2']
+P3-L6,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['414-2-D', '414-2-E']; Table2=['414-2']"
+P3-L6,Match type disagreement. Table1=direct; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P4-E1,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-29-A-I']; Table2=['2-29']
+P4-E2,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['3-1-B']; Table1-only=['2-29-A-I-III']; Table2-only=['2-29', '3-1']"
+P4-L1,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-29-A-I']; Table2=['2-12', '2-13']"
+P4-L2,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-1-A-I-II', '3-1-B']; Table2=['3-1']"
+P4-L3,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-29-A-I-III']; Table2=['2-29', '2-29-A-I', '2-29-A-III']"
+P5-E1,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['2-24-A-IV']; Table1-only=['205-2-E', '403-5-A', '404-1-A-I-II', '410-1-A']; Table2-only=['2-24', '205-2', '403-5', '404-1', '410-1']"
+P5-E10,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-3-D-I-II']; Table2=['3-3']
+P5-E10,Match type disagreement. Table1=direct; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P5-E2,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['202-1-A', '202-1-B', '405-2-A']; Table2=['202-1', '405-2']"
+P5-E3,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-19-A-I-V', '2-21-A']; Table2=['2-19', '2-21']"
+P5-E4,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-13-A-I-II']; Table2=['2-13']
+P5-E5,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-25-B', '2-25-D', '2-25-E']; Table2=['2-25']"
+P5-E6,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-25-E', '406-1-A']; Table2=['406-1']"
+P5-E6,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P5-E7,Table 1 and Table 2 have partially overlapping GRI codes. Shared=['2-25-E']; Table1-only=[]; Table2-only=['2-25']
+P5-E8,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['3-3']; Table1-only=['2-23-A-IV', '2-23-E', '2-23-F', '2-24-A-III']; Table2-only=['2-23', '2-24']"
+P5-L1,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-25-B', '2-25-E', '3-3-D-I-II']; Table2=['2-25', '3-3', '3-3-D-II']"
+P5-L2,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-1-A-I', '3-3-A', '3-3-C', '3-3-D']; Table2=['3-1', '3-3']"
+P5-L3,GRI code found in Table 1 but not Table 2. Table1=['3-3']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P5-L3,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P5-L4,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['3-3']; Table1-only=['414-1-A', '414-2-A']; Table2-only=['414-1', '414-2']"
+P5-L5,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['414-2-D', '414-2-E']; Table2=['414-2']"
+P6-E1,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['302-1-A', '302-1-B', '302-1-C-I', '302-1-E', '302-3-A']; Table2=['302-1', '302-3']"
+P6-E10,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['304-1-A-I-V']; Table2=['304-1']
+P6-E11,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['303-1-A', '413-1-A-II']; Table2=['303-1', '303-1-B', '413-1']"
+P6-E12,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-27-B-I-II']; Table2=['2-27']
+P6-E2,GRI code found in Table 1 but not Table 2. Table1=['3-3']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P6-E2,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P6-E3,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['303-3-A-I-V', '303-5-A']; Table2=['303-3', '303-5']"
+P6-E3,Match type disagreement. Table1=direct; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P6-E4,"GRI code found in Table 1 but not Table 2. Table1=['303-1-A', '303-2-A']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P6-E4,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P6-E5,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['305-7-A-I-VII']; Table2=['305-7']
+P6-E6,"Table 1 and Table 2 have partially overlapping GRI codes. Shared=['305-1']; Table1-only=['305-1-B', '305-2-A', '305-2-B', '305-2-C', '305-4-A', '305-4-B', '305-4-C']; Table2-only=['305-2', '305-4']"
+P6-E7,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['305-5-A', '305-5-B', '305-5-C', '305-5-D']; Table2=['305-5']"
+P6-E8,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['306-3-A', '306-4-A', '306-4-B-I-III', '306-4-C-I-III', '306-5-A', '306-5-B-I-III', '306-5-C-I-IV']; Table2=['306-3', '306-5']"
+P6-E9,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-3-C', '3-3-D-I-II', '306-2-A']; Table2=['3-3', '306-2']"
+P6-L1,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['302-1-A', '302-1-B', '302-1-C-I', '302-1-E']; Table2=['302-1']"
+P6-L2,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['303-4-A-I-IV']; Table2=['303-4']
+P6-L3,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['303-3-B-I-IV', '303-4-A-I-II']; Table2=['303-3', '303-4']"
+P6-L4,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['305-3-A', '305-3-B', '305-4-A', '305-4-B', '305-4-C']; Table2=['305-3', '305-4']"
+P6-L5,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['304-2-A-I-VI', '304-2-B-I-IV', '304-3-A']; Table2=['304-2', '304-3']"
+P6-L8,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['308-2-C', '308-2-D']; Table2=['308-2']"
+P6-L9,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['308-1-A', '308-2-A']; Table2=['308-1', '308-2']"
+P7-E1,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-28-A']; Table2=['2-28']
+P7-L1,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-28-A']; Table2=['2-28']
+P7-L1,Match type disagreement. Table1=direct; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P8-E1,GRI code found in Table 1 but not Table 2. Table1=['413-1-A-I-III']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P8-E1,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P8-E2,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['413-1-A-IV']; Table2=['2-25', '3-3', '413-1']"
+P8-E2,Match type disagreement. Table1=can_be_covered_by; Table2=direct. Table 1 retained as authoritative.
+P8-E3,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['2-25-B', '3-3', '413-1-A-VIII']; Table2=['204-1']"
+P8-E4,present in Table 1 only; missing from Table 2
+P8-E4,"GRI code found in Table 1 but not Table 2. Table1=['204-1-A', '204-1-B', '204-1-C']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P8-L1,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-3-D-I-II', '413-1-A-IV']; Table2=['3-3', '413-1']"
+P8-L2,GRI code found in Table 1 but not Table 2. Table1=['413-1-A-IV']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P8-L2,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P8-L3,"GRI code found in Table 1 but not Table 2. Table1=['204-1-A', '3-3']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P8-L3,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P8-L4,GRI code found in Table 1 but not Table 2. Table1=['201-1-A']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P8-L4,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P8-L5,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-3-D-I-II']; Table2=['3-3']
+P8-L5,Match type disagreement. Table1=direct; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P8-L6,GRI code found in Table 1 but not Table 2. Table1=['413-1-A-IVC']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P8-L6,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P9-E1,"GRI code found in Table 1 but not Table 2. Table1=['2-25-B', '2-25-D', '2-25-E']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P9-E1,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P9-E2,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['417-1-A-I-V', '417-1-B']; Table2=['417-1']"
+P9-E3,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['418-1-A-I-II', '418-1-B']; Table2=['418-1']"
+P9-E4,GRI code found in Table 1 but not Table 2. Table1=['416-2-A-I-III']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P9-E4,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P9-E5,"GRI code found in Table 1 but not Table 2. Table1=['2-23-A', '2-23-C', '3-3']. Inspect Table 2 raw text before treating this as a genuine disagreement."
+P9-E5,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P9-E6,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['3-3-D-I-II']; Table2=['3-3']
+P9-L1,GRI code found in Table 1 but not Table 2. Table1=['2-6-B-I']. Inspect Table 2 raw text before treating this as a genuine disagreement.
+P9-L1,Match type disagreement. Table1=can_be_covered_by; Table2=no_direct_linkage. Table 1 retained as authoritative.
+P9-L4,"Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['417-1-A-I-V', '417-1-B']; Table2=['417-1']"
+P9-L5,Table 1 and Table 2 contain non-overlapping GRI codes. Table1=['418-1-A']; Table2=['418-1']

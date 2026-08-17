@@ -1,0 +1,7 @@
+brsr_id,gri_code,gri_disclosure,esrs_datapoint_id,esrs_sheet,esrs_topic_code,esrs_dr,esrs_name,esrs_data_type,brsr_match_type,brsr_mapping_semantics,brsr_evidence_source,gri_esrs_match_level,expansion_count,expansion_class,interop_support,evidence_tier
+B7,2-22-A,2-22,SBM-1_23,ESRS 2,ESRS 2,SBM-1,Disclosure of elements of strategy that relate to or impact sustainability matters,narrative,direct,direct,table1,requirement,1,low,direct,gold
+P1-E5,205-3-A,205-3,G1-4_04,ESRS G1,G1,G1-4,Number of confirmed incidents of corruption or bribery,Integer,direct,direct,table1,requirement,2,low,direct,gold
+P1-E5,205-3-A,205-3,G1-4_05,ESRS G1,G1,G1-4,Information about nature of confirmed incidents of corruption or bribery,narrative,direct,direct,table1,requirement,2,low,direct,gold
+P1-E5,205-3-B,205-3,G1-4_06,ESRS G1,G1,G1-4,Number of confirmed incidents in which own workers were dismissed or disciplined for corruption or bribery-related incidents,Integer,direct,direct,table1,requirement,1,low,direct,gold
+P6-E3,303-5-A,303-5,E3-4_01,ESRS E3,E3,E3-4,Total water consumption,Volume,direct,direct,table1,requirement,1,low,direct,gold
+P8-E3,413-1-A-VIII,413-1,S3-4_17,ESRS S3,S3,S3-4,"Explanation of the approximate scope of affected communities covered by the described social investment or development programmes, and, where applicable, the rationale for why selected communities were chosen",narrative,direct,direct,table1,disclosure,1,low,direct,gold

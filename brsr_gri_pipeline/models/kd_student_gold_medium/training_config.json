@@ -1,0 +1,18 @@
+{
+  "run_name": "GOLD_MEDIUM",
+  "student_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "student_max_length": 256,
+  "temperature": 2.0,
+  "lambda_kd": 1.0,
+  "lambda_gold": 0.25,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "epochs_requested": 10,
+  "best_epoch": 1,
+  "best_validation_kl": 0.35197633504867554,
+  "train_brsr_ids": 21,
+  "validation_brsr_ids": 4,
+  "train_candidate_rows": 390,
+  "validation_candidate_rows": 106,
+  "history_file": "/u/student/2026/cs26resch04001/Jyoti/ESG/brsr_gri_pipeline/data/processed/kd_epoch_history_gold_medium.csv"
+}

@@ -1,0 +1,29 @@
+{
+  "script": "15_kd_end_to_end_evaluation",
+  "evaluation_split": "test",
+  "test_file": "/u/student/2026/cs26resch04001/Jyoti/ESG/brsr_gri_pipeline/data/final/final_test.csv",
+  "coverage_file": "/u/student/2026/cs26resch04001/Jyoti/ESG/brsr_gri_pipeline/data/processed/kd_candidate_coverage.csv",
+  "candidate_universe": "/u/student/2026/cs26resch04001/Jyoti/ESG/brsr_gri_pipeline/data/processed/final_brsr_gri_esrs_candidates.csv",
+  "candidate_rows": 10669,
+  "esrs_universe_size": 517,
+  "test_brsr_ids": [
+    "A13",
+    "B6",
+    "P1-E7",
+    "P5-E2",
+    "P6-E1"
+  ],
+  "num_test_brsr_ids": 5,
+  "rerank_top": 50,
+  "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+  "ce_model": "models/cross_encoder_expanded_gold",
+  "kd_gold_model": "models/kd_student_expanded_gold/final",
+  "kd_gold_medium_model": "models/kd_student_expanded_gold_medium/final",
+  "base_universe_encode_seconds": 0.4564862558618188,
+  "kd_gold_universe_encode_seconds": 0.1803673766553402,
+  "kd_gold_medium_universe_encode_seconds": 0.1526091918349266,
+  "zero_shot": true,
+  "training_performed": false,
+  "test_labels_used_for_candidate_generation": false,
+  "test_ids_used_during_kd_training": false
+}

@@ -1,0 +1,53 @@
+{
+  "script": "16_large_scale_zero_shot_evaluation",
+  "protocol": "frozen_zero_shot",
+  "candidate_file": "/u/student/2026/cs26resch04001/Jyoti/ESG/brsr_gri_pipeline/data/processed/final_brsr_gri_esrs_candidates.csv",
+  "gold_file": "/u/student/2026/cs26resch04001/Jyoti/ESG/brsr_gri_pipeline/data/final/final_test.csv",
+  "ranking_file": "/u/student/2026/cs26resch04001/Jyoti/ESG/brsr_gri_pipeline/data/processed/script17_zero_shot_rankings.csv",
+  "test_ids": [
+    "A13",
+    "B6",
+    "P1-E7",
+    "P5-E2",
+    "P6-E1"
+  ],
+  "kd_training_ids": [
+    "A18a",
+    "A21",
+    "B8",
+    "P1-E1",
+    "P1-L1",
+    "P2-L2",
+    "P2-L3",
+    "P3-E7",
+    "P3-E8",
+    "P3-E9",
+    "P4-E1",
+    "P4-E2",
+    "P4-L1",
+    "P4-L2",
+    "P5-E1",
+    "P5-E4",
+    "P5-L2",
+    "P6-E6",
+    "P6-E8",
+    "P6-L4",
+    "P8-L1"
+  ],
+  "kd_training_test_overlap": [],
+  "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "cross_encoder": null,
+  "kd_gold": "models/kd_student_gold/final",
+  "kd_gold_medium": "models/kd_student_gold_medium/final",
+  "no_training": true,
+  "no_calibration": true,
+  "gold_column": "esrs_datapoint_id",
+  "n_candidate_rows": 10669,
+  "n_esrs_datapoints": 517,
+  "methods": [
+    "direct",
+    "symbolic_multihop",
+    "multihop_kd_gold",
+    "multihop_kd_gold_medium"
+  ]
+}
