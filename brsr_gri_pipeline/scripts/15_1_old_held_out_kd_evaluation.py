@@ -62,34 +62,6 @@ Systems
        BRSR -> ESRS -> KD student trained on
        gold + medium supervision
 
-8. DIRECT_FULL_DENSE  [ADDED — true no-bridge baseline]
-       BRSR -> full ESRS universe (all datapoints in scope, NOT
-       restricted to rows already present in candidate_df for this
-       BRSR ID) -> dense similarity ranking only.
-
-       NOTE ON THE ORIGINAL "DIRECT" SYSTEM:
-       The original `direct_candidates()` function restricts its
-       search space to rows of `candidate_df` that already belong to
-       the query BRSR ID. Because `candidate_df` is itself built by
-       the BRSR -> GRI -> ESRS composition (scripts 08-10), this pool
-       is identical to `symbolic_candidates()` for every BRSR ID by
-       construction -- it is NOT an independent, bridge-free baseline,
-       and comparing "direct" against "symbolic_multihop" measures
-       nothing. DIRECT_FULL_DENSE and DIRECT_FULL_CROSS_ENCODER below
-       are the actual unconstrained baselines: they search the full
-       ESRS universe (`esrs_ids`, all rows seen anywhere in
-       candidate_df across all BRSR IDs) with no bridge filtering at
-       all. The original "direct"/"direct_kd_gold"/
-       "direct_kd_gold_medium" systems are left in place unchanged so
-       existing results stay comparable, but they should be read as
-       "bridge-pool dense/KD reranking", not as a no-bridge baseline.
-
-9. DIRECT_FULL_CROSS_ENCODER  [ADDED — true no-bridge baseline]
-       BRSR -> full ESRS universe -> CrossEncoder scores every
-       (BRSR text, ESRS text) pair directly, brute force, no GRI
-       bridge, no dense pre-filtering. This is the "can a cross-
-       encoder alone establish direct mapping" ablation.
-
 Important
 ---------
 The symbolic BRSR -> GRI -> ESRS candidate graph is treated as
@@ -689,18 +661,6 @@ def direct_candidates(
     )
 
 
-def full_direct_candidates(
-    esrs_ids,
-):
-
-    # True unconstrained baseline: every ESRS datapoint in the
-    # universe, with NO restriction to candidate_df rows for this
-    # BRSR ID and NO GRI bridge involvement. This is what "direct"
-    # should mean.
-
-    return list(esrs_ids)
-
-
 def symbolic_candidates(
     brsr_id,
     brsr_to_gri,
@@ -965,7 +925,6 @@ def evaluate_query(
     gri_to_esrs,
     esrs_texts,
     esrs_index,
-    esrs_ids,
     base_model,
     base_embeddings,
     ce_model,
@@ -975,35 +934,12 @@ def evaluate_query(
 ):
 
     # ------------------------------------------------------------------
-    # DIRECT CANDIDATES (bridge-pool restricted -- see docstring note)
+    # DIRECT CANDIDATES
     # ------------------------------------------------------------------
 
     direct = direct_candidates(
         bid,
         candidate_df,
-    )
-
-    # ------------------------------------------------------------------
-    # DIRECT_FULL CANDIDATES (true no-bridge baseline)
-    # ------------------------------------------------------------------
-
-    direct_full = full_direct_candidates(
-        esrs_ids,
-    )
-
-    direct_full_dense_ranked = dense_rank(
-        query=query,
-        candidate_ids=direct_full,
-        candidate_embeddings=base_embeddings,
-        candidate_index=esrs_index,
-        model=base_model,
-    )
-
-    direct_full_ce_ranked = ce_rank(
-        query=query,
-        candidate_ids=direct_full,
-        esrs_texts=esrs_texts,
-        ce_model=ce_model,
     )
 
     direct_ranked = dense_rank(
@@ -1092,24 +1028,6 @@ def evaluate_query(
     )
 
     # ------------------------------------------------------------------
-    # DIRECT_FULL KD (true no-bridge KD baselines)
-    # ------------------------------------------------------------------
-
-    direct_full_kd_gold_ranked = kd_rank(
-        query=query,
-        candidate_ids=direct_full,
-        esrs_texts=esrs_texts,
-        kd_model=kd_gold,
-    )
-
-    direct_full_kd_gold_medium_ranked = kd_rank(
-        query=query,
-        candidate_ids=direct_full,
-        esrs_texts=esrs_texts,
-        kd_model=kd_gold_medium,
-    )
-
-    # ------------------------------------------------------------------
     # SYSTEMS
     # ------------------------------------------------------------------
 
@@ -1135,18 +1053,6 @@ def evaluate_query(
 
         "direct_kd_gold_medium":
             direct_kd_gold_medium_ranked,
-
-        "direct_full_dense":
-            direct_full_dense_ranked,
-
-        "direct_full_cross_encoder":
-            direct_full_ce_ranked,
-
-        "direct_full_kd_gold":
-            direct_full_kd_gold_ranked,
-
-        "direct_full_kd_gold_medium":
-            direct_full_kd_gold_medium_ranked,
     }
 
     metrics = {}
@@ -1216,33 +1122,6 @@ def evaluate_query(
                 set(kd_gold_medium_ranked)
                 .intersection(gold_set)
             ),
-
-        "direct_full_candidates":
-            len(direct_full),
-
-        "direct_full_dense_gold_reached":
-            len(
-                set(direct_full_dense_ranked)
-                .intersection(gold_set)
-            ),
-
-        "direct_full_ce_gold_reached":
-            len(
-                set(direct_full_ce_ranked)
-                .intersection(gold_set)
-            ),
-
-        "direct_full_kd_gold_gold_reached":
-            len(
-                set(direct_full_kd_gold_ranked)
-                .intersection(gold_set)
-            ),
-
-        "direct_full_kd_gold_medium_gold_reached":
-            len(
-                set(direct_full_kd_gold_medium_ranked)
-                .intersection(gold_set)
-            ),
     }
 
     return metrics, diagnostics, rankings
@@ -1260,10 +1139,6 @@ SYSTEMS = [
     "multihop_kd_gold_medium",
     "direct_kd_gold",
     "direct_kd_gold_medium",
-    "direct_full_dense",
-    "direct_full_cross_encoder",
-    "direct_full_kd_gold",
-    "direct_full_kd_gold_medium",
 ]
 
 METRIC_NAMES = [
@@ -1665,7 +1540,6 @@ def main():
                 gri_to_esrs=gri_to_esrs,
                 esrs_texts=esrs_texts,
                 esrs_index=esrs_index,
-                esrs_ids=esrs_ids,
                 base_model=base_model,
                 base_embeddings=base_embeddings,
                 ce_model=ce_model,
@@ -2065,4 +1939,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()s

@@ -36,7 +36,7 @@
   ],
   "kd_training_test_overlap": [],
   "base_model": "sentence-transformers/all-MiniLM-L6-v2",
-  "cross_encoder": null,
+  "cross_encoder": "models/cross_encoder_expanded_gold",
   "kd_gold": "models/kd_student_expanded_gold/final",
   "kd_gold_medium": "models/kd_student_expanded_gold_medium/final",
   "no_training": true,
@@ -47,7 +47,11 @@
   "methods": [
     "direct",
     "symbolic_multihop",
+    "multihop_cross_encoder",
     "multihop_kd_gold",
-    "multihop_kd_gold_medium"
+    "multihop_kd_gold_medium",
+    "direct_full_cross_encoder",
+    "direct_full_kd_gold",
+    "direct_full_kd_gold_medium"
   ]
 }

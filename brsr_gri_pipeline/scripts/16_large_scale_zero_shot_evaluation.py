@@ -858,6 +858,39 @@ def main():
         )
 
     # ---------------------------------------------------------------
+    # KD UNIVERSE ENCODING  [FIX]
+    # ---------------------------------------------------------------
+    # BUG FIXED: the previous version of this script encoded the
+    # QUERY with the KD model but scored it against `esrs_embeddings`,
+    # which was encoded with the BASE embedder (`embedder`), never
+    # re-run through the KD model. Query and document vectors were
+    # therefore in two different, uncalibrated embedding spaces, so
+    # every "multihop_kd_gold"/"multihop_kd_gold_medium" score in
+    # previously generated results (data/results/zero_shot*) is
+    # unreliable and should not be cited. Fixed by encoding the full
+    # ESRS universe once per KD model, upfront, exactly as already
+    # done for the base embedder above.
+
+    kd_gold_esrs_embeddings = None
+    kd_gold_medium_esrs_embeddings = None
+
+    if kd_gold is not None:
+        print("\nEncoding ESRS universe with KD GOLD...")
+
+        kd_gold_esrs_embeddings = encode_candidates(
+            kd_gold,
+            esrs_texts,
+        )
+
+    if kd_gold_medium is not None:
+        print("\nEncoding ESRS universe with KD GOLD+MEDIUM...")
+
+        kd_gold_medium_esrs_embeddings = encode_candidates(
+            kd_gold_medium,
+            esrs_texts,
+        )
+
+    # ---------------------------------------------------------------
     # EVALUATION
     # ---------------------------------------------------------------
 
@@ -879,6 +912,25 @@ def main():
     if kd_gold_medium is not None:
         methods.append(
             "multihop_kd_gold_medium"
+        )
+
+    # NEW — true no-bridge baselines, scored against the FULL ESRS
+    # universe (esrs_ids/esrs_texts), independent of the symbolic
+    # BRSR -> GRI -> ESRS candidate restriction.
+
+    if ce is not None:
+        methods.append(
+            "direct_full_cross_encoder"
+        )
+
+    if kd_gold is not None:
+        methods.append(
+            "direct_full_kd_gold"
+        )
+
+    if kd_gold_medium is not None:
+        methods.append(
+            "direct_full_kd_gold_medium"
         )
 
     per_query = []
@@ -1000,7 +1052,7 @@ def main():
                 if x in esrs_index
             ]
 
-            kd_emb = esrs_embeddings[
+            kd_emb = kd_gold_esrs_embeddings[
                 symbolic_indices
             ]
 
@@ -1031,7 +1083,7 @@ def main():
                 if x in esrs_index
             ]
 
-            kd_emb = esrs_embeddings[
+            kd_emb = kd_gold_medium_esrs_embeddings[
                 symbolic_indices
             ]
 
@@ -1044,6 +1096,39 @@ def main():
                 query_kd_medium,
                 kd_emb,
                 kd_candidate_ids,
+            )
+
+        # -----------------------------------------------------------
+        # DIRECT_FULL — no-bridge baselines over the full ESRS universe
+        # -----------------------------------------------------------
+
+        ce_full_ids = None
+        kd_gold_full_ids = None
+        kd_gold_medium_full_ids = None
+
+        if ce is not None:
+
+            ce_full_ids, _ = cross_encoder_rank(
+                ce,
+                query_text,
+                esrs_texts,
+                esrs_ids,
+            )
+
+        if kd_gold is not None:
+
+            kd_gold_full_ids, _ = cosine_rank(
+                query_kd,
+                kd_gold_esrs_embeddings,
+                esrs_ids,
+            )
+
+        if kd_gold_medium is not None:
+
+            kd_gold_medium_full_ids, _ = cosine_rank(
+                query_kd_medium,
+                kd_gold_medium_esrs_embeddings,
+                esrs_ids,
             )
 
         # -----------------------------------------------------------
@@ -1069,6 +1154,21 @@ def main():
             method_rankings[
                 "multihop_kd_gold_medium"
             ] = kd_medium_ids
+
+        if ce_full_ids is not None:
+            method_rankings[
+                "direct_full_cross_encoder"
+            ] = ce_full_ids
+
+        if kd_gold_full_ids is not None:
+            method_rankings[
+                "direct_full_kd_gold"
+            ] = kd_gold_full_ids
+
+        if kd_gold_medium_full_ids is not None:
+            method_rankings[
+                "direct_full_kd_gold_medium"
+            ] = kd_gold_medium_full_ids
 
         # -----------------------------------------------------------
         # PER-QUERY METRICS

@@ -1,5 +1,9 @@
 method,evaluated_brsr_ids,recall@1,recall@5,recall@10,recall@20,recall@50,mrr
 direct,5,0.35,0.65,0.7,0.7,1.0,0.7095238095238094
 symbolic_multihop,5,0.35,0.75,0.9,1.0,1.0,0.7222222222222222
-multihop_kd_gold,5,0.35,0.85,0.9,1.0,1.0,0.7166666666666666
-multihop_kd_gold_medium,5,0.35,0.85,0.9,1.0,1.0,0.7
+multihop_cross_encoder,5,0.45,0.9,0.9,0.9,0.9,0.8666666666666666
+multihop_kd_gold,5,0.35,0.85,0.9,0.9,1.0,0.7
+multihop_kd_gold_medium,5,0.35,0.85,0.9,0.9,1.0,0.6900000000000001
+direct_full_cross_encoder,5,0.15,0.45,0.5,0.7,0.7,0.4842679127725857
+direct_full_kd_gold,5,0.15,0.65,0.7,0.9,1.0,0.5642857142857143
+direct_full_kd_gold_medium,5,0.15,0.65,0.8,0.9,1.0,0.5533333333333333
