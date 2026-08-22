@@ -1,0 +1,7 @@
+{
+  "calibration_source": "fixed_conservative",
+  "gold_score": 0.0,
+  "gold_margin": 0.2,
+  "medium_score": -0.25,
+  "medium_margin": 0.05
+}
